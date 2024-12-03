@@ -1,62 +1,62 @@
+import './App.css';
 import { IoMenu } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
 import { SlBasket } from "react-icons/sl";
 import { FcLike } from "react-icons/fc";
 import { IoStatsChart } from "react-icons/io5";
 import { GoPerson } from "react-icons/go";
-import './App.css';
 
 function App() {
   const Allproducts = [
     {
-      url: "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-07-29/uel0TmctQBCuuPqyfNuO3r9TR3kiIrKFxmOtQv1YOeR2wtgDHo1cOYIQGeYc.jpg",
+      url: "https://i.postimg.cc/5jdz0LkD/O-yin-konsoli-Sony-Play-Station-5-Slim-CD-1-TB-from-U-A-E.jpg",
       title: "O‘yin konsoli Sony PlayStation 5 Slim CD ,1TB (from U.A.E)",
-      nowPrice: "7 300 000",
-      oldPrice: "9 000 000",
-      muddatTolov: "855 000",
+      nowPrice: "5 999 000",
+      oldPrice: "8 800 000",
+      muddatTolov: "703 000",
     },
     {
-      url: "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-07-24/GXnlCe9OvklS1p0BdVMR0qp9NhQhJQz3ySaRmEnz7XbK8BjnEPLZhKxR2gzw.jpg",
-      title: "Apple iPhone 15 Pro",
-      nowPrice: "14 726 960",
-      muddatTolov: "1 725 000",
+      url: "https://i.postimg.cc/TwsmzZjd/Apple-i-Phone-15-Pro-128-GB-Black-titanium.jpg",
+      title: "Apple iPhone 15 Pro 128GB Black titanium",
+      nowPrice: "14 571 943",
+      muddatTolov: "1 707 000",
     },
     {
-      url: "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-08-02/bnK9uRgVG9tyAdlxGzfMvaztbKCINaeTWtkYxjnjCGhoFTFRM7skgSOtDddM.jpg",
-      title: "Samsung Galaxy A15",
-      nowPrice: "1 998 315",
-      muddatTolov: "235 000",
+      url: "https://i.postimg.cc/3x3BFQnV/Samsung-Galaxy-A15.jpg",
+      title: "Samsung Galaxy A15 Qora 6/128 GB",
+      nowPrice: "2 380 000",
+      muddatTolov: "279 000",
     },
     {
-      url: "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-07-29/U2sN2UcpfFt8DP243Sv7u6qUNi3HcmhfZtRTiQAKFsFRE61RnzZRBcnkMq7B.jpg",
-      title: "Xiaomi Redmi Note 13 5G",
-      nowPrice: "2 800 000",
-      muddatTolov: "328 000",
+      url: "https://i.postimg.cc/sDr93Rdx/Xiaomi-Redmi-Note-13.jpg",
+      title: "Xiaomi Redmi Note 13",
+      nowPrice: "2 850 000",
+      muddatTolov: "334 000",
     },
     {
-      url: "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-07-29/48HWaawTxY3boTO1JB9NZS0gEK8EbkLaY3QMDjFXrSk3OK62XS9ek9lhkP7Q.jpg",
+      url: "https://i.postimg.cc/J7bZ6dDL/Samsung-Galaxy-S24.jpg",
       title: "Samsung Galaxy S24",
-      nowPrice: "8 889 000",
-      muddatTolov: "1 041 000",
+      nowPrice: "8 798 000",
+      muddatTolov: "1 031 000",
     },
     {
-      url: "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-07-24/AK75xdKuWk5l7Q7GJt95BArGIb8YzAxpHeOnxvlzk6zFA16WSmZxDCfxkHIx.jpg",
-      title: "Xiaomi Redmi 13C",
-      nowPrice: "1 680 000",
-      muddatTolov: "197 000",
+      url: "https://i.postimg.cc/kgZ2Xx6s/Xiaomi-Redmi-13-C-Midnight-Black.jpg",
+      title: "Xiaomi Redmi 13C Midnight Black 8/256 GB",
+      nowPrice: "1 772 396",
+      muddatTolov: "208 000",
     },
     {
-      url: "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-07-29/Eg0izQU1CgoBH9m2PzQyKPq4cFyPy0XKf1fPrB3dD1sFXqSsfv3ofmqU7YKw.jpg",
-      title: "O‘yin konsoli Sony PlayStation PS5 Slim, Digital Edition 1 TB (from U.A.E)",
-      nowPrice: "6 499 000",
-      oldPrice: "8 700 000",
-      muddatTolov: "762 000",
+      url: "https://i.postimg.cc/KzbvRQZP/O-yin-konsoli-Sony-Play-Station-5-Pro-2-TB-from-U-A-E.jpg",
+      title: "O‘yin konsoli Sony PlayStation 5 Pro 2TB (from U.A.E)",
+      nowPrice: "11 576 700",
+      oldPrice: "12 863 000",
+      muddatTolov: "1 356 000",
     },
     {
-      url: "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-10-01/WEWCMNnU7xsc3P2VOB13L7j6wVaLLU3gwEaWOAE2FCUAmfGx32kHmHl7yN0s.jpg",
-      title: "Honor X8b",
-      nowPrice: "2 936 900",
-      muddatTolov: "344 000",
+      url: "https://i.postimg.cc/76XDbkt4/Honor-X8b-Qora.jpg",
+      title: "Honor X8b Qora 8/256 GB",
+      nowPrice: "3 069 000",
+      muddatTolov: "360 000",
     },
   ]
   return (
